@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<div class="box">
+<form action="">
+<div class="input">
+<div class="input1">
+<label>NPM</label><br>
+<input type="text" placeholder="202310036" class="placeholder"><br>
+<label>Fullname</label><br>
+<input type="text" placeholder="Bagas Ferdi" class="placeholder"><br>
+<label>Email</label><br>
+<input type="email" placeholder="202310036@student.ibik.ac.id" class="placeholder"><br>
+<label>Password</label><br>
+<input type="password" placeholder="using at least 6 character" class="placeholder"><br>
+<label>Placebirth</label><br>
+<input type="text" placeholder="Bogor" class="placeholder"><br>
+</div>
+<div class="input2">
+<label>Birthdate</label><br>
+<input type="date" placeholder="22-07-2001"
+class="date"><br>
+<label>Gender</label><br>
+<div class="radio-btn">
+<div class="male">
+<input type="radio" name="JK" id="male">
+
+<label for="male">Male</label><br>
+</div>
+<div class="female">
+<input type="radio" name="JK" id="female">
+<label for="female">Female</label><br>
+</div>
+</div>
+<label>Address</label><br>
+<textarea name="address" id="address" cols="35" rows="4" placeholder="Jalani Hidup yang harus dijalani " class="placeholder"></textarea>
+<input type="submit" value="Save">
+<input type="reset" value="Clear">
+</div>
+</div>
+</form>
+</div>
+
+<script>
+function back() { location.assign("index.html");
+}
+</script>
+</body>
+
+</html>
